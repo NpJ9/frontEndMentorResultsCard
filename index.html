@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <title>Frontend Mentor | Results summary component</title>
+</head>
+<body>
+
+<section class ="main__container">
+        <section class ="result__container">
+          <div class ="result__title">  Your Result</div>
+              <div class ="result__circle">
+
+                <!--Mobile SVG-->
+
+                <svg class="mobile__circles" xmlns="http://www.w3.org/2000/svg" width="140" height="140" viewBox="0 0 140 140" fill="none">
+                  <circle cx="70" cy="70" r="70" fill="url(#paint0_linear_54_23)"/>
+                  <defs>
+                  <linearGradient id="paint0_linear_54_23" x1="70" y1="0" x2="70" y2="140" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#4D21C9"/>
+                  <stop offset="1" stop-color="#2521C9" stop-opacity="0"/>
+                  <stop offset="1" stop-color="#2521C9" stop-opacity="0"/>
+                  </linearGradient>
+                  </defs>
+                  </svg>
+
+                <!--Tablet/Dekstop SVG-->
+                  <svg class="tablet__circles" xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200" fill="none">
+                    <circle cx="100" cy="100" r="100" fill="url(#paint0_linear_14_43)"/>
+                    <defs>
+                    <linearGradient id="paint0_linear_14_43" x1="100" y1="0" x2="100" y2="200" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#4D21C9"/>
+                    <stop offset="1" stop-color="#2521C9" stop-opacity="0"/>
+                    <stop offset="1" stop-color="#2521C9" stop-opacity="0"/>
+                    </linearGradient>
+                    </defs>
+                    </svg>
+                <div class ="result__score"> 76</div>
+                <div class ="result__score__outof">of 100</div>
+              </div>
+          
+              <div class ="result__level">Great</div>
+              <div class ="result__description">  You scored higher than 65% of the people who have taken these tests.</div>
+        </section>
+
+
+        <section class ="summary__container">
+          <div class="summary__title">Summary</div>
+
+          <div class="summary__skills">
+
+                <div class = "summary__skills__reaction">
+                  <img src="assets/images/icon-reaction.svg" class = "logo">Reaction
+                  <div class = "score">80</div>
+                  <div class ="outof">/ 100</div>
+                </div>
+
+                <div class = "summary__skills__memory">
+                  <img src="assets/images/icon-memory.svg" class = "logo">Memory
+                  <div class = "score">92</div>
+                  <div class ="outof">/ 100</div>
+              </div>
+
+                <div class = "summary__skills__verbal">
+                  <img src="assets/images/icon-verbal.svg" class = "logo">Verbal
+                  <div class = "score">61</div>
+                  <div class ="outof">/ 100</div>
+                  </div>
+
+                <div class = "summary__skills__visual">
+                  <img src="assets/images/icon-visual.svg" class = "logo">Visual
+                  <div class = "score">61</div>
+                  <div class ="outof">/ 100</div>
+                </div>
+
+            </div>
+
+            <button class ="continue"><p class="button__title">Continue</p></button>
+            
+          </div>
+
+        </section>
+</section>
+  
+</body>
+</html>
